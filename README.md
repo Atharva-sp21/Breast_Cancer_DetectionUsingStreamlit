@@ -17,7 +17,11 @@ The application also uses **Plotly** for interactive visualizations and **Pickle
 ---
 
 ## 📂 Project Structure
-
+app.py # Streamlit app code
+├── model.pkl # Saved Logistic Regression model (Pickle)
+├── requirements.txt # Python dependencies
+├── data.csv # Dataset (optional, if included)
+└── README.md # Project documentation
 The application provides:
 - Input forms for user data
 - A **predict** button that uses the logistic regression model to output the prediction
